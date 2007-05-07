@@ -12,6 +12,7 @@ BuildRequires: liblo-devel
 BuildRequires: ladspa-devel
 BuildRequires: libalsa-devel
 BuildRequires: gtk2-devel
+BuildRequires: libsndfile-devel
 
 %description
 A Xsynth DSSI wavetable version plugin
