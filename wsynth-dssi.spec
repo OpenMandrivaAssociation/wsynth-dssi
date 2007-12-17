@@ -6,7 +6,6 @@ Source: http://static.nekosynth.co.uk/releases/wsynth-dssi-%{version}.tar.gz
 URL: http://www.nekosynth.co.uk/wiki/wsynt
 License:	GPL
 Group:		Sound
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 BuildRequires: dssi-devel
 BuildRequires: liblo-devel
 BuildRequires: ladspa-devel
