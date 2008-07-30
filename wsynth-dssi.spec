@@ -1,7 +1,7 @@
 Name: wsynth-dssi
 Summary: A Xsynth DSSI wavetable version plugin
 Version: 0.1.3
-Release: %mkrel 1
+Release: %mkrel 3
 Source: http://static.nekosynth.co.uk/releases/wsynth-dssi-%{version}.tar.gz
 URL: http://www.nekosynth.co.uk/wiki/wsynt
 License:	GPL
