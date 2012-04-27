@@ -1,7 +1,7 @@
 Name:       wsynth-dssi
 Summary:    A Xsynth DSSI wavetable version plugin
 Version:    0.1.3
-Release:    5
+Release:    6
 
 Source:     http://static.nekosynth.co.uk/releases/wsynth-dssi-%{version}.tar.gz
 URL:        http://www.nekosynth.co.uk/wiki/wsynt
@@ -21,17 +21,16 @@ A Xsynth DSSI wavetable version plugin
 %setup -q
 
 %build
-%configure2_5x
+%configure2_5x --with-dssi-dir=%{buildroot}%{_libdir}/dssi
 
-make
+%make bindir=%{_libdir}/dssi/%name
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%makeinstall
+%makeinstall bindir=%{buildroot}%{_libdir}/dssi/%name
 
 %files
 %defattr(-,root,root)
 %doc COPYING README
-%_bindir/*
 %_libdir/dssi/*
 
