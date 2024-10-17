@@ -4,7 +4,7 @@ Version:    0.1.3
 Release:    7
 
 Source:     http://static.nekosynth.co.uk/releases/wsynth-dssi-%{version}.tar.gz
-URL:        http://www.nekosynth.co.uk/wiki/wsynt
+URL:        https://www.nekosynth.co.uk/wiki/wsynt
 License:    GPL
 Group:      Sound
 
