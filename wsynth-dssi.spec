@@ -8,6 +8,11 @@ URL:        https://www.nekosynth.co.uk/wiki/wsynt
 License:    GPL
 Group:      Sound
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  pkgconfig(dssi)
 BuildRequires:  pkgconfig(liblo)
 BuildRequires:  pkgconfig(alsa)
